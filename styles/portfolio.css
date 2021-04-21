@@ -3,7 +3,7 @@
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-@media (max-width: 700px){
+@media (max-width: 768px){
   h1{
       font-size:50px !important
   }
