@@ -134,3 +134,31 @@
     padding: 15px 30px;
   }
 
+.work-inquiry{
+  background: var(--secondary-color);
+}
+
+.work-inquiry .navigation-links{
+  height: 60px;
+  border-radius: 8px;
+}
+
+.work-inquiry div{
+  line-height: 3;
+}
+.contact-footer{
+  text-align: center;
+  padding-top: 20px;
+}
+.contact-footer a{
+  display: block;
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
+}
+
+.contact-footer i{
+  color:var(--primary-color);
+  font-size: 25px;
+  margin: 15px
+}
