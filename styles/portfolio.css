@@ -1,8 +1,10 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
+  --primary-color: #126e7d;
+  --secondary-color: #102714;
+  --titles-color: #6c757d;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+
 
 @media (max-width: 576px){
   .work-photo{
@@ -26,14 +28,20 @@
 .hero{
   text-align: center;
   background-color: var(--secondary-color);
-  padding: 160px 20px;
+  padding: 120px 20px;
+  color: var(--titles-color);
 }
 
 .hero h1 {
     font-family: 'Playfair Display', serif;
-    font-size: 96px;
+    font-size: 50px;
     font-weight: bold;
     margin-bottom: 3rem;
+  }
+
+  .hero img{
+    max-width: 300px;
+
   }
 
   .hero p {
@@ -103,13 +111,9 @@
     display: block;
   }
   
-  .about-paragraphs {
-    display: flex;
-    margin: 30px 0;
-  }
-  
-  .about-paragraphs p {
-    margin: 10px;
+  .work-title{
+    color: var(--titles-color);
+    background-color: var(--secondary-color);
   }
   
   .email-link {
@@ -134,8 +138,13 @@
     padding: 15px 30px;
   }
 
+  .platforms{
+    font-size: 40px;
+  }
+
 .work-inquiry{
   background: var(--secondary-color);
+  color: var(--titles-color);
 }
 
 .work-inquiry .navigation-links{
