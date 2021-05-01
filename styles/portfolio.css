@@ -89,20 +89,29 @@
     text-decoration: none !important;
     text-transform: capitalize;
   }
-
-  .navigation-links a :hover{
-    text-decoration: none;
-  }
   
-  .purple-button {
+  .standard-button {
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
     color: white;
+    height: 60px;
+  border-radius: 8px;
+  text-decoration: none;
+  }
+
+  .standard-button:hover{
+    text-decoration: none;
+    color: var(--secondary-color);
+    background-color:#0799b0;
   }
   
   .about-link {
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
+  }
+
+  .about-paragraph{
+    font-size: 30px;
   }
   
   .homepage-link {
@@ -147,10 +156,6 @@
   color: var(--titles-color);
 }
 
-.work-inquiry .navigation-links{
-  height: 60px;
-  border-radius: 8px;
-}
 
 .work-inquiry div{
   line-height: 3;
