@@ -125,6 +125,18 @@
     background-color: var(--secondary-color);
   }
   
+  .work-item{
+    text-align: center;
+    max-height: 400px;
+    padding: 5px;
+  }
+
+  .work-item img{
+    height: 70%;
+    width: 80%;
+    background-color: grey;
+  }
+  
   .email-link {
     display: flex;
     justify-content: center;
